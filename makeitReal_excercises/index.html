@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"></link>
+    <title>Make It Real</title>
+</head>
+<body>
+    
+   <header id="fondo">
+       <div class="foto">
+           <figure>
+            <img src="imagenes/fotodocumento.jpg" >
+           </figure>
+        
+       </div>
+       
+       <h1>Carlos Vega</h1>
+       <p id="location">Barranquilla,Atlantico</p>
+
+       
+   </header> 
+
+
+
+
+   <script>
+       //ejercicio 1
+ function count(str,char){
+       let arr=[...str];
+       count=arr.filter(el=>el===char).length;
+       return count;
+
+      }
+      
+//ejercicio 2
+   let arr=[1,2,33,4,5,6,77,88,99,87];
+      const filtro=(arr)=>arr.filter(el=>el>10);
+      console.log(filtro(arr));
+
+      //ejercicio 3
+const hypotenuse=(a,b)=>Math.sqrt(a**2+b**2);
+         console.log(hypotenuse(3,4));
+         const hypotenuse=(a,b)=>Math.sqrt(a**2+b**2);
+         console.log(hypotenuse(3,4));
+   </script>
+</body>
+</html>

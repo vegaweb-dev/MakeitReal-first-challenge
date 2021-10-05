@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+*{margin:0;
+padding:0;
+}
+body{
+    margin:0;
+    font-family: 'Italianno', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    line-height:1.6;
+}
+#fondo{
+    background-image: url("../imagenes/makeitreal2.jpg");
+    background-size: cover;
+    
+    background-position:center;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0 20px;
+}
+#fondo h1{
+    font-size: 160px;
+    
+}
+#fondo h1 :hover{
+    font-size: 160px;
+    color: blueviolet;
+    
+}
+
+#fondo p{
+    font-size: 70px;
+
+}
+.foto img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius:50% ;
+    border: 5px solid #ffffff;
+}
+#location{color: blue;}
+  
